@@ -1,0 +1,22 @@
+.pagination {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.page-link {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  width: 15px;
+  height: 15px;
+  justify-content: center;
+  align-items: center;
+  color: #524848;
+}
+
+.active a {
+  background: cornflowerblue;
+  color: #fff;
+}
